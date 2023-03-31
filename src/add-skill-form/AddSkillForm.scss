@@ -1,0 +1,45 @@
+﻿form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+    label {
+        font-size: 18px;
+        font-weight: 500;
+        margin-bottom: 7px;
+    }
+
+    input {
+        font-size: 16px;
+        border-radius: 7px;
+        border: 1px solid gray;
+        padding: 5px 10px;
+            
+        &:focus {
+            outline: turquoise 1px solid;
+        }
+    }
+
+    button {
+        background-color: #4AC7B0;
+        color: white;
+        font-size: 16px;
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: all 0.2s ease-in-out;
+
+        &:hover {
+            background-color: #44B1A6;
+        }
+    }
+}
+
+
+.form-item {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-bottom: 30px;
+}
